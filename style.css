@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&family=Montserrat&display=swap');
+h1{
+font-family: 'Fraunces', serif;
+color: white;
+}
+h2{
+font-family: 'Montserrat', sans-serif;
+color: white;
+}
+html.home{
+  background-image: url('Nature.jpg');
+  background-repeat: no-repeat;
+  background-position: 0px -130px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.textblock{
+  background-color: rgba(209, 199, 199, 0.5);
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 15px;
+  text-align: justify;
+}
+nav ul{
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-end;
+}
+nav li{
+  margin-left: 20px;
+}
+nav a:link{
+  padding: 10px; 
+}
+.sublist{
+display: none;
+margin-top: 10px;
+flex-direction: column;
+position: absolute;
+}
+.itemwithdropdown:hover .sublist{
+display: flex;
+}
+.sublist li{
+margin-left: -5px
+}
+.sublist li a{
+  display: block;
+}
