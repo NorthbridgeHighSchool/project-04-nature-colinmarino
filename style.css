@@ -28,10 +28,13 @@ nav ul{
   justify-content: flex-end;
 }
 nav li{
-  margin-left: 20px;
+  margin-left: 15px;
 }
 nav a:link{
-  padding: 10px; 
+  padding: 10px;
+  color: rgb(75, 168, 21); 
+  background-color: rgba(211, 210, 210, 0.89);
+  border: 2px solid black;
 }
 .sublist{
 display: none;
@@ -43,8 +46,32 @@ position: absolute;
 display: flex;
 }
 .sublist li{
-margin-left: -5px
+margin-left: -1px;
 }
 .sublist li a{
   display: block;
+}
+nav a:hover{
+color: blueviolet;
+}
+sublist a:hover{
+color: blueviolet;
+}
+nav a:active{
+  color: rgb(113, 238, 232);
+}
+sublist a:active{
+  color: rgb(113, 238, 232); 
+}
+nav a:visited{
+color: rgb(206, 13, 13);
+}
+sublist a:visited{
+color: rgb(206, 13, 13);
+}
+nav a.current{
+color: rgb(54, 53, 53);
+}
+sublist a.current{
+color: rgb(54, 53, 53);
 }
