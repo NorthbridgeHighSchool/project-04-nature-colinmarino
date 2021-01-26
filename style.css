@@ -2,10 +2,12 @@
 h1{
 font-family: 'Fraunces', serif;
 color: white;
+margin-left: 50px;
 }
 h2{
 font-family: 'Montserrat', sans-serif;
 color: white;
+margin-left: 50px;
 }
 html.home{
   background-image: url('Nature.jpg');
